@@ -12,6 +12,10 @@ function JuanP() {
         <div className="cv-title">
           <h1>Juan Manuel Poveda Rodríguez</h1>
           <h2>Desarrollador Full Stack / Ingeniero en Formación</h2>
+           <img  
+           className="cv-photo" 
+           src="https://media.licdn.com/dms/image/v2/D4E03AQHTvmRvTEWSOQ/profile-displayphoto-scale_200_200/B4EZgQk101GoAY-/0/1752624751015?e=1758153600&v=beta&t=xyn_q8mApWwxk9hEP2c8c_1pP66UkxOcbOe_HhjKs3Y" 
+             alt="Foto de perfil" />
         </div>
       </header>
 

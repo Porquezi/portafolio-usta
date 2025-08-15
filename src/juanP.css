@@ -25,6 +25,8 @@
   border-radius: 10px;
   border: 2px solid #004080;
   margin-right: 20px;
+  width: '150px';
+  border-radius: 10px;
 }
 
 .cv-title h1 {
@@ -38,6 +40,7 @@
   font-weight: normal;
   color: #555;
   font-size: 18px;
+   margin-bottom: 20px;
 }
 
 /* Secciones */

@@ -1,0 +1,77 @@
+.cv-wrapper {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 25px;
+  border: 2px solid #004080;
+  border-radius: 10px;
+  background-color: #fdfdfd;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Encabezado */
+.cv-header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #004080;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.cv-photo img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #004080;
+  margin-right: 20px;
+}
+
+.cv-title h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #004080;
+}
+
+.cv-title h2 {
+  margin: 5px 0 0;
+  font-weight: normal;
+  color: #555;
+  font-size: 18px;
+}
+
+/* Secciones */
+.cv-section {
+  margin-bottom: 25px;
+}
+
+.cv-section h3 {
+  border-left: 5px solid #004080;
+  padding-left: 10px;
+  color: #004080;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.cv-item {
+  margin-bottom: 15px;
+}
+
+.cv-item h4 {
+  margin: 0 0 5px;
+  color: #222;
+}
+
+.cv-item p {
+  margin: 0;
+  color: #444;
+}
+
+.cv-section a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.cv-section a:hover {
+  text-decoration: underline;
+}

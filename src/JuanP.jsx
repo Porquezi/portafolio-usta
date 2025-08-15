@@ -1,21 +1,19 @@
 import './juanP.css';
 
-
 function JuanP() {
   return (
     <div className="cv-wrapper">
-      {/* Encabezado con foto y nombre */}
+      {/* Encabezado */}
       <header className="cv-header">
         <div className="cv-photo">
-          
+          <img  
+            src="https://media.licdn.com/dms/image/v2/D4E03AQHTvmRvTEWSOQ/profile-displayphoto-scale_200_200/B4EZgQk101GoAY-/0/1752624751015?e=1758153600&v=beta&t=xyn_q8mApWwxk9hEP2c8c_1pP66UkxOcbOe_HhjKs3Y" 
+            alt="Foto de perfil" 
+          />
         </div>
         <div className="cv-title">
           <h1>Juan Manuel Poveda Rodríguez</h1>
           <h2>Desarrollador Full Stack / Ingeniero en Formación</h2>
-           <img  
-           className="cv-photo" 
-           src="https://media.licdn.com/dms/image/v2/D4E03AQHTvmRvTEWSOQ/profile-displayphoto-scale_200_200/B4EZgQk101GoAY-/0/1752624751015?e=1758153600&v=beta&t=xyn_q8mApWwxk9hEP2c8c_1pP66UkxOcbOe_HhjKs3Y" 
-             alt="Foto de perfil" />
         </div>
       </header>
 
@@ -37,25 +35,21 @@ function JuanP() {
         {/* Proyectos Académicos Destacados */}
         <section className="cv-section">
           <h3>Proyectos Académicos Destacados</h3>
-          
           <div className="cv-item">
             <h4>Simulación Montecarlo – Flex Drive (USTA Tunja)</h4>
-            <p>Desarrollo de modelo estadístico en Python para analizar el comportamiento de inscripción de usuarios, usando Google Colab, NumPy, Pandas, Seaborn y Matplotlib.</p>
+            <p>Modelo estadístico en Python para analizar el comportamiento de inscripción de usuarios, usando Google Colab, NumPy, Pandas, Seaborn y Matplotlib.</p>
           </div>
-
           <div className="cv-item">
             <h4>Sistema de Votaciones – USTA</h4>
-            <p>Desarrollo Full Stack de app de votaciones con React Native, NestJS y Supabase; implementación de lógica de negocio y roles de usuario para una experiencia ágil y segura.</p>
+            <p>App de votaciones con React Native, NestJS y Supabase; lógica de negocio y roles de usuario para experiencia ágil y segura.</p>
           </div>
-
           <div className="cv-item">
             <h4>Lolfi Bot – Discord</h4>
-            <p>Desarrollo de bot en Discord con Python, usando discord.py, para la gestión de roles, sistemas de música y funciones de seguridad. Integración de comandos personalizados, control de permisos y moderación automatizada.</p>
+            <p>Bot en Discord con Python, usando discord.py, para gestión de roles, música y funciones de seguridad.</p>
           </div>
-
           <div className="cv-item">
             <h4>Sitio Web – Peluquería en Tunja</h4>
-            <p>Diseño y desarrollo de página web responsiva para una peluquería local en Tunja, utilizando HTML, CSS, JavaScript y Bootstrap.</p>
+            <p>Página web responsiva con HTML, CSS, JavaScript y Bootstrap.</p>
           </div>
         </section>
 

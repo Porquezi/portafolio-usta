@@ -1,0 +1,91 @@
+/* Contenedor principal */
+.cv-wrapper {
+  max-width: 950px;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(8px);
+  color: #fff;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+/* Encabezado */
+.cv-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
+.cv-photo img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 3px solid #00b4d8;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+.cv-title h1 {
+  margin: 0;
+  font-size: 32px;
+  font-weight: bold;
+  color: #00e1ff;
+}
+
+.cv-title h2 {
+  margin: 8px 0 0;
+  font-weight: normal;
+  font-size: 18px;
+  color: #cce7ff;
+}
+
+/* Secciones */
+.cv-section {
+  margin-top: 25px;
+}
+
+.cv-section h3 {
+  border-left: 6px solid #00e1ff;
+  padding-left: 12px;
+  font-size: 22px;
+  color: #00e1ff;
+  margin-bottom: 15px;
+}
+
+.cv-item {
+  background: rgba(255, 255, 255, 0.05);
+  padding: 12px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.cv-item:hover {
+  transform: translateY(-2px);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.cv-item h4 {
+  margin: 0 0 5px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.cv-item p {
+  margin: 0;
+  font-size: 15px;
+  color: #e0e0e0;
+}
+
+.cv-section a {
+  color: #00e1ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cv-section a:hover {
+  text-decoration: underline;
+}

@@ -1,7 +1,8 @@
 import { useState } from "react";
-import JuanP from "./JuanP";
-import JulianS from "./JulianS";
-import Home from "./home";
+import JuanP from "./screens/JuanP";
+import JulianS from "./screens/JulianS";
+import JuanM from "./screens/JuanM";
+import Home from "./screens/home";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import logo from "./assets/logo.png";
@@ -31,12 +32,14 @@ function App() {
             <Link to="/">Inicio</Link>
             <Link to="/juanp">JuanP</Link>
             <Link to="/julians">JulianS</Link>
+            <Link to="/juanM">JuanM</Link>
           </div>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/juanp" element={<JuanP />} />
           <Route path="/julians" element={<JulianS />} />
+          <Route path="/juanM" element={<JuanM />} />
         </Routes>
       </div>
     </Router>

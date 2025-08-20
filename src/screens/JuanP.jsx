@@ -1,4 +1,4 @@
-import './juanP.css';
+import '../styles/JuanP.css';
 
 function JuanP() {
   return (

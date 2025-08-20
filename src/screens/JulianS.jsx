@@ -1,4 +1,4 @@
-import './julianS.css';
+import '../styles/JulianS.css';
 
 function JulianS() {
   return (

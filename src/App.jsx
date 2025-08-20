@@ -1,4 +1,3 @@
-import { useState } from "react";
 import JuanP from "./screens/JuanP";
 import JulianS from "./screens/JulianS";
 import JuanM from "./screens/JuanM";
@@ -6,11 +5,8 @@ import Home from "./screens/home";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import logo from "./assets/logo.png";
-import Home from "./screens/home";
 import JohanL from "./screens/JohanL";
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-import logo from "./assets/logo.png";
+
 
 function App() {
 
